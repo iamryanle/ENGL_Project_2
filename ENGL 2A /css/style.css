@@ -2,12 +2,43 @@
 .nav-link{
   padding-right: 2rem !important;
 }
+.col-sm-6 h4{
+  text-decoration: underline;
+}
 
+.navbar-brand img{
+  height: 125px;
+  width:  125px;
+  align-self: center;
+}
+.col-sm-2 img{
+  height: 175px;
+  width:  175px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
+}
+.col-sm-2 h6{
+  text-align: center;
+}
+.nav-item{
+  border: 1px solid blue;
+  width: 175px;
+  height: 50px;
+  align-content: center;
+}
+.nav-item a:hover{
+  background-color: #E8E8E8 ;
+}
+.nav-item a:active{
+  background-color: gray ;
+}
 
-
-
-
+.nav-item a{
+  text-align: center;
+}
 
 
 
