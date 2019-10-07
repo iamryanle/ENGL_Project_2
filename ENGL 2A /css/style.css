@@ -40,8 +40,9 @@
   text-align: center;
 }
 
-
-
+.text-light{
+  text-shadow: 2px 2px black;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
