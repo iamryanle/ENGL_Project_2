@@ -4,15 +4,23 @@ p, li, h6{
 
 }
 
+h5{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 40px;
+
+
+}
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 .nav-link{
   padding-right: 2rem !important;
 }
-.col-sm-12 h4{
-  text-decoration: underline;
 
+
+#inanimatealice2{
+  width: 400px;
+  height: 400px;
 }
-
 .navbar-brand img{
   height: 125px;
   width:  125px;
@@ -47,15 +55,16 @@ p, li, h6{
   text-align: center;
 }
 
-.text-light{
-  text-shadow: 2px 2px black;
-}
 
-h1, h4{
+h1, h2, h3, h4{
   font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  text-align: center;
 
 }
-
+.jumbotron{
+  height: 225px;
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
